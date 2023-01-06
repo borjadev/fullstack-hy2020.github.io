@@ -259,7 +259,7 @@ xhttp.open('GET', '/data.json', true)
 xhttp.send()
 ```
 
-La solicitud al servidor se envía en la última línea, pero el código para manejar la respuesta se puede encontrar más arriba. ¿Que esta pasando?
+La solicitud al servidor se envía en la última línea, pero el código para manejar la respuesta se puede encontrar más arriba. ¿Qué está pasando?
 
 En esta línea,
 
@@ -574,7 +574,7 @@ var sendToServer = function(note) {
 El código determina que los datos se enviarán con una solicitud HTTP POST y el tipo de datos será JSON. El tipo de datos se determina con una cabecera <i>Content-type</i>. Luego, los datos se envían como JSON-string.
 
 El código de la aplicación está disponible en <https://github.com/mluukkai/example_app>.
-Vale la pena recordar que la aplicación solo está destinada a demostrar los conceptos del curso. El código sigue un estilo de desarrollo deficiente en cierta medida y no debe usarse como ejemplo al crear sus propias aplicaciones. Lo mismo ocurre con las URL utilizadas. La URL <i>new_note_spa</i>, a la que se envían las nuevas notas, no cumple con las mejores prácticas actuales.
+Vale la pena recordar que la aplicación solo está destinada a demostrar los conceptos del curso. El código sigue un estilo de desarrollo deficiente en cierta medida y no debe usarse como ejemplo al crear sus propias aplicaciones. Lo mismo ocurre con las URL utilizadas. La URL <i>new\_note\_spa</i>, a la que se envían las nuevas notas, no cumple con las mejores prácticas actuales.
 
 ### Librerías JavaScript
 
