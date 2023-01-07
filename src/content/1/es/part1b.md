@@ -66,7 +66,7 @@ t.forEach(value => {
 })
 ```
 
-En este ejemplo, cabe destacar el hecho de que el contenido de el array se puede modificar aunque esté definido como _const_. Como el array es un objeto, la variable siempre apunta al mismo objeto. Sin embargo, el contenido del array cambia a medida que se le agregan nuevos elementos.
+En este ejemplo, cabe destacar el hecho de que el contenido del array se puede modificar aunque esté definido como _const_. Como el array es un objeto, la variable siempre apunta al mismo objeto. Sin embargo, el contenido del array cambia a medida que se le agregan nuevos elementos.
 
 Una forma de iterar a través de los elementos del array es usar _forEach_ como se ve en el ejemplo. _forEach_ recibe una <i>función</i> definida usando la sintaxis de flecha como parámetro.
 
@@ -110,7 +110,7 @@ console.log(m2)
 // [ '<li>1</li>', '<li>2</li>', '<li>3</li>' ] es impreso
 ```
 
-Aquí un array llena de valores enteros se transforma en un array que contiene cadenas de HTML utilizando el método map. En la [parte 2](/es/part2) de este curso, veremos que map se usa con bastante frecuencia en React.
+Aquí un array lleno de valores enteros se transforma en un array que contiene cadenas de HTML utilizando el método map. En la [parte 2](/es/part2) de este curso, veremos que map se usa con bastante frecuencia en React.
 
 Los elementos individuales de un array son fáciles de asignar a variables con la ayuda de la [asignación de desestructuración](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). 
 
@@ -219,7 +219,7 @@ const tSquared = t.map(p => p * p)
 
 La característica de la función de flecha se agregó a JavaScript hace solo un par de años, con la versión [ES6](http://es6-features.org/). Antes de esto, la única forma de definir funciones era usando la palabra clave _function_. 
 
-Hay dos formas de hacer referencia a la función; uno está dando un nombre en una [declaración de función](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function). 
+Hay dos formas de hacer referencia a la función; una está dando un nombre en una [declaración de función](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function). 
 
 ```js
 function product(a, b) {
